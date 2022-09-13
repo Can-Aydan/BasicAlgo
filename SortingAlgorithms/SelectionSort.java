@@ -23,5 +23,6 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		SelectionSort selectionSort = new SelectionSort();
 		int[] arr = { 2, 0, 2, 1, 1, 0 };
+		selectionSort.selectionSorting(arr);
 	}
 }
